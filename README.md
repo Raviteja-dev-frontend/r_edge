@@ -1,5 +1,5 @@
 ﻿# R_Edge-Task
-
+![User](screen1.png)
 # 🛒 BuyBuddy
 
 **BuyBuddy** is a modern, responsive e-commerce frontend application built with **React** and **Bootstrap**.  
@@ -156,36 +156,13 @@ mini-ecommerce/
 
 Below are some key pages of the BuyBuddy application:
 
-### 1️⃣ User Login
-![User Login](https://github.com/Raviteja-dev-frontend/r_edge/blob/main/screen1.png?raw=true)
 
-### 2️⃣ Admin Login
-![Admin Login](src/assets/screen2.png)
-
-### 3️⃣ Home Page
-![Admin Page](src/assets/screen3.png)
-
-### 4️⃣ Product List
-![Admin List](src/assets/screen4.png)
-
-### 5️⃣ Product Details
-![Admin Product Details](src/assets/screen5.png)
-
-### 6️⃣ Admin adding product
-![Admin added product](src/assets/screen6.png)
-
-### 7️⃣ Dashboard
-![Dashboard](src/assets/screen7.png)
-
-### 8️⃣ Products
-![Products](src/assets/screen8.png)
-
-### 9️⃣ After login Navbar
-![After login Navbar](src/assets/screen9.png)
+![User](./screen1.png)
 
 6. project live url
 
 https://graceful-boba-38d9a4.netlify.app/
+
 
 
 
