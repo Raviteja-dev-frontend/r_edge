@@ -1,0 +1,75 @@
+.footer {
+  background-color: #ff007f; /* Hot pink theme */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 0;
+}
+
+.footer h5 {
+  margin-bottom: 1rem;
+}
+
+.footer .footer-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer .footer-link:hover {
+  color: #ffd700; /* Gold accent */
+}
+
+.footer p,
+.footer ul {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.footer-social-link {
+  color: white;
+  font-size: 1.4rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-social-link:hover {
+  color: gold;
+  transform: scale(1.2);
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Ensures icons wrap on very small screens */
+  gap: 15px;
+}
+
+/* Responsive Layout */
+@media (max-width: 992px) {
+  .footer .row > div {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer h5 {
+    font-size: 1.1rem;
+  }
+
+  .footer-social-link {
+    font-size: 1.2rem;
+  }
+
+  .social-icons {
+    gap: 10px;
+  }
+}

@@ -1,0 +1,233 @@
+/* chat gpt given */
+
+
+
+.product-list-section {
+  background: #fff0f5;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #ff007f;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.product-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: #ffffff;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(255, 0, 127, 0.1);
+}
+
+.product-img {
+  height: 230px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #400c70;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-view,
+.btn-add {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+}
+
+.btn-view {
+  background-color: #ff007f;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-add {
+  background-color: #ffd700;
+  color: #000000;
+  border: none;
+}
+
+.btn-view:hover {
+  background-color: #c70062;
+}
+
+.btn-add:hover {
+  background-color: #e6c200;
+}
+
+
+/* main before modification */
+.product-card {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  background: #f90c57; /* light soft pink */
+  border: 2px solid #fc2779 !important; /* branded pink border */
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(252, 39, 121, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 24px rgba(247, 14, 103, 0.2);
+  border-color: #f70e67; /* slight hover color shift */
+}
+
+
+/* Hover Call-to-action */
+.product-card::after {
+  content: "View & Add to Cart";
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  width: 100%;
+  height: 45px;
+  background-color: #fc2779; /* Blue */
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: all 200ms ease;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.product-card:hover::after {
+  bottom: 0;
+  opacity: 1;
+  border-radius: 0 0 15px 15px;
+}
+
+.product-card:active::after {
+  content: "Added!";
+  background-color: #28a745; /* Green */
+  line-height: 50px;
+  height: 50px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+ /* background: linear-gradient(90deg,
+  #fc2779 0%,
+  #f70e67 50%,
+  #ff5aa2 100%
+); */
+/* background: linear-gradient(135deg,
+  rgba(131, 58, 180, 1) 0%,
+  #fc2779 50%,
+  #f70e67 80%
+); */
+background:#feb3cd;
+
+
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.04);
+}
+
+.card-body {
+  padding: 12px 16px;
+  background:#feb3cd;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #fff; /* Optional: You can adjust this if text blends with bg */
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 4px;
+}
+
+.card-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: #030303; /* Blue for price */
+  margin-bottom: 8px;
+}
+
+.card-body p.text-muted {
+  font-size: 13px;
+  color: #6c757d;
+}
+
+/* Wishlist Button */
+.wishlist-btn {
+  /* position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #fff;
+  border: none;
+  font-size: 20px;
+  color: #dc3545;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease; */
+
+    position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  border: none;
+  font-size: 20px;
+  padding: 5px 8px;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.wishlist-btn:hover {
+  /* transform: scale(1.2); */
+    transform: scale(1.1);
+}
+.card {
+  padding: 0px !important;
+}
+
+.product-img-wrapper {
+  position: relative;
+}
+
+.product-img {
+  height: 220px;
+  object-fit: cover;
+}

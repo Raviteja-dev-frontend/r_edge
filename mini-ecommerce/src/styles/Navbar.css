@@ -1,0 +1,105 @@
+/* .custom-navbar {
+  background-color: #fc2779;
+  padding: 20px 20px;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight:bold !important;
+  padding: 15px 15px !important;
+}
+
+.nav-link:hover {
+  color: #ffd700;
+}
+
+.menu-toggle {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.mobile-menu {
+  background-color: #6f42c1;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu .nav-link {
+  margin-bottom: 10px;
+  font-size: 16px;
+} */
+
+/* Navbar.css */
+
+.custom-navbar {
+  background-color: #fc2779;
+  padding: 16px 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ffd700;
+}
+
+.menu-toggle {
+  font-size: 26px;
+  color: white;
+  background: none;
+  border: none;
+}
+
+.mobile-menu {
+  background-color: #fc2779;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  animation: slideDown 0.3s ease;
+  z-index: 1000;
+}
+
+.mobile-menu .nav-link {
+  margin-bottom: 0.75rem;
+  font-size: 16px;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive spacing */
+@media (max-width: 576px) {
+  .nav-link {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+}
+
+
+.nav-menu-desk {
+    font-size: large;
+    color: white;
+    font-weight: 500;
+}

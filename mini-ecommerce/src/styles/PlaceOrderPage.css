@@ -1,0 +1,40 @@
+/* 📱 Mobile responsive adjustments for PlaceOrderPage */
+@media (max-width: 768px) {
+  .place-order-container {
+    padding: 1rem !important;
+  }
+
+  .place-order-container .card {
+    padding: 1rem !important;
+  }
+
+  /* Form fields stack vertically */
+  .place-order-container .row.g-3 > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* Reduce button & input size slightly for mobile */
+  .place-order-container .form-control,
+  .place-order-container .form-select {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+
+  .place-order-container button {
+    font-size: 0.95rem;
+    padding: 0.7rem 1rem;
+  }
+
+  /* Order summary image sizing */
+  .place-order-container .list-group-item img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+  }
+
+  /* Space between cards */
+  .place-order-container .card {
+    margin-bottom: 1rem;
+  }
+}

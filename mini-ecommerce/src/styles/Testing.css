@@ -1,0 +1,111 @@
+.card-container-1 {
+  display: flex;
+  flex-wrap: wrap; /* 🔁 allow items to wrap */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px; /* 🎯 space between cards */
+  min-height: 110vh; /* increase height to accommodate wrapping */
+  padding: 100px 20px 10px;
+  background-color: #fefefe;
+  
+}
+
+
+.product-card-1 {
+  width: 250px;
+   background: linear-gradient(
+    40deg,
+    #e64985c2 0%,
+    rgba(176, 100, 227, 0.769) 80%
+  );
+  /* background-color: #fbb6ce; */
+  border: 1px solid #fbb6ce;
+  border-radius: 16px;
+  padding: 12px 8px 16px;
+  text-align: center;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-top: 60px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.product-image-wrapper-1 {
+   background-color: #f7eff2;
+  border: 1px solid #fbb6ce;
+  border-radius: 12px;
+  padding: 8px;
+  position: absolute;
+  top: -180px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image-wrapper-1 img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  
+}
+
+.product-title-1 {
+  margin-top: 80px;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: poppins, sans-serif;
+  color: #333;
+}
+
+.product-price-1 {
+  margin-top: 36px;
+  font-size: 14px;
+  color: #444;
+}
+
+.price-highlight-1 {
+  font-weight: bold;
+  color: #e6007e;
+  font-size: 16px;
+}
+
+.price-arrow-1 {
+  color: #e6007e;
+  font-size: 16px;
+  margin-left: 4px;
+}
+.latest-products-main {
+  padding: 40px 20px;
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Heading */
+.latest-products-main h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff007f;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1280px) {
+.card-container-1 {
+  gap: 60px; /* 🎯 space between cards */
+  min-height: 150vh; /* increase height to accommodate wrapping */ 
+}
+}
+@media (max-width: 900px) {
+  .card-container-1 {
+    row-gap: 150px;  /* Vertical space between rows */
+    column-gap: 60px; /* Horizontal space between cards */
+    height: auto;    /* Let height adjust to content */
+  }
+}

@@ -1,0 +1,28 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* index.css - global styles */
+
+body {
+  font-family: 'Poppins';
+  background-color: #fff;
+  color: #222;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  /* font-family:poppins; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* Buttons & CTA text */
+button, .btn, .cta-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
