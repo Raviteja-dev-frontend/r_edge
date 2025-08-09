@@ -1,6 +1,13 @@
 ﻿# R_Edge-Task
 ![User](screen1.png)
 ![Admin](screen2.png)
+![Admin Dashbord](screen3.png)
+![In Admin Dashbord click the Add Product](screen4.png)
+![Give the Details and Image url](screen5.png)
+![Submin and observer the products list](screen6.png)
+![that the total status of the business](screen7.png)
+![Before login not display all navlinks and not add cart and wishlist](screen8.png)
+
 # 🛒 BuyBuddy
 
 **BuyBuddy** is a modern, responsive e-commerce frontend application built with **React** and **Bootstrap**.  
@@ -163,6 +170,7 @@ Below are some key pages of the BuyBuddy application:
 6. project live url
 
 https://graceful-boba-38d9a4.netlify.app/
+
 
 
 
