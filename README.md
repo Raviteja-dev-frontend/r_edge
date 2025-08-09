@@ -157,7 +157,7 @@ mini-ecommerce/
 Below are some key pages of the BuyBuddy application:
 
 ### 1️⃣ Admin Login
-![Admin Login](src/assets/screen1.png)
+![Admin Login](https://github.com/Raviteja-dev-frontend/r_edge/blob/b46fa0883ca6592bd6a3ba75f029896b1ba59c9b/screen1.png)
 
 ### 2️⃣ User Login
 ![User Login](src/assets/screen2.png)
@@ -186,3 +186,4 @@ Below are some key pages of the BuyBuddy application:
 6. project live url
 
 https://graceful-boba-38d9a4.netlify.app/
+
