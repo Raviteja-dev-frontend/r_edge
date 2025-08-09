@@ -1,5 +1,6 @@
 ﻿# R_Edge-Task
 ![User](screen1.png)
+![Admin](screen2.png)
 # 🛒 BuyBuddy
 
 **BuyBuddy** is a modern, responsive e-commerce frontend application built with **React** and **Bootstrap**.  
@@ -162,6 +163,7 @@ Below are some key pages of the BuyBuddy application:
 6. project live url
 
 https://graceful-boba-38d9a4.netlify.app/
+
 
 
 
