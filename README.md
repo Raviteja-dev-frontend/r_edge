@@ -1,14 +1,45 @@
 ﻿# R_Edge-Task
 ![User](screen1.png)
-![Admin](screen2.png)
-![Admin Dashbord](screen3.png)
-![In Admin Dashbord click the Add Product](screen4.png)
-![Give the Details and Image url](screen5.png)
-![Submin and observer the products list](screen6.png)
-![that the total status of the business](screen7.png)
-![Before login not display all navlinks and not add cart and wishlist](screen8.png)
 
-# 🛒 BuyBuddy
+
+## Admin Login
+
+![Admin](screen2.png)
+
+
+## Admin Dashbord
+
+![Admin Dashbord](screen3.png)
+
+
+## In Admin Dashbord click the Add Product
+
+![In Admin Dashbord click the Add Product](screen4.png)
+
+## Give the Details and Image url
+
+![Give the Details and Image url](screen5.png)
+
+
+## Submin and observer the products list
+
+![Submin and observer the products list](screen6.png)
+
+
+## The total status of the business
+
+![The total status of the business](screen7.png)
+
+## Before login not display all navlinks and not add cart and wishlist
+
+![Before login not display all navlinks and not add cart and wishlist](screen10.png)
+
+## After login the user
+
+![After login the user](screen8.png)
+
+
+## BuyBuddy
 
 **BuyBuddy** is a modern, responsive e-commerce frontend application built with **React** and **Bootstrap**.  
 It delivers a smooth shopping experience with features like category browsing, product search, a shopping cart, and beautiful product displays.  
@@ -157,19 +188,10 @@ mini-ecommerce/
 ├── tailwind.config.js
 └── vite.config.js
 
-
-5.screenshots
-
-## 📸 Screenshots
-
-Below are some key pages of the BuyBuddy application:
-
-
-![User](./screen1.png)
-
 6. project live url
 
 https://graceful-boba-38d9a4.netlify.app/
+
 
 
 
